@@ -1,0 +1,140 @@
+.frame-child {
+    height: 40px;
+    width: 428px;
+    position: relative;
+    background-color: var(--color-gray-100);
+    display: none;
+    max-width: 100%;
+  }
+  .div,
+  .frame-item {
+    position: relative;
+    z-index: 1;
+  }
+  .div {
+    width: 90px;
+    display: inline-block;
+    flex-shrink: 0;
+    white-space: nowrap;
+  }
+  .frame-item {
+    height: 18px;
+    width: 26px;
+    border-radius: 50%;
+    background-color: #242323;
+  }
+  .vector,
+  .vector-icon,
+  .vector-icon1 {
+    height: 20px;
+    width: 25px;
+    position: relative;
+    min-height: 20px;
+    z-index: 1;
+  }
+  .vector {
+    margin: 0;
+  }
+  .vector-parent {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 9.5px;
+  }
+  .ellipse-parent,
+  .frame-container,
+  .vector-parent {
+    display: flex;
+    align-items: flex-start;
+  }
+  .frame-container {
+    width: 94px;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 2px 0 0;
+    box-sizing: border-box;
+  }
+  .ellipse-parent {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .frame-wrapper,
+  .rectangle-parent {
+    display: flex;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+  .frame-wrapper {
+    width: 163px;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 5px 0 0;
+  }
+  .rectangle-parent {
+    align-self: stretch;
+    background-color: var(--color-gray-100);
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3px 20px 10px 44px;
+    top: 0;
+    z-index: 99;
+    position: sticky;
+    max-width: 100%;
+    gap: var(--gap-xl);
+    text-align: left;
+    font-size: 24px;
+    color: var(--color-white);
+    font-family: var(--font-inter);
+  }
+  .istockphoto-810169352-612x612-icon,
+  .screenshot-331-1 {
+    position: absolute;
+    top: 147px;
+    left: 0;
+    width: 428px;
+    height: 556px;
+    object-fit: cover;
+  }
+  .screenshot-331-1 {
+    top: 0;
+    height: 299px;
+    mix-blend-mode: linear-burn;
+    z-index: 1;
+  }
+  .istockphoto-810169352-612x612-parent {
+    align-self: stretch;
+    height: 703px;
+    position: relative;
+  }
+  .le0aykalr4idtlrmw1e6kw-1-icon {
+    align-self: stretch;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  .frame-parent,
+  .iphone-14-plus-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame-parent {
+    align-self: stretch;
+    gap: var(--gap-xl);
+  }
+  .iphone-14-plus-1 {
+    width: 100%;
+    position: relative;
+    border-radius: 25px;
+    background-color: var(--color-white);
+    overflow: hidden;
+    gap: 101px;
+    line-height: normal;
+    letter-spacing: normal;
+  }
